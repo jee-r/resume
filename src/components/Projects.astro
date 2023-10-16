@@ -1,0 +1,38 @@
+---
+const { lang } = Astro.props;
+import { useTranslations } from "../i18n/utils";
+const t = useTranslations(lang);
+
+const projects =
+  lang == "en"
+    ? await Astro.glob("../content/projects/en/*.md")
+    : await Astro.glob("../content/projects/fr/*.md");
+---
+
+<div class="section-title">{t("projects")}</div>
+<section class="flex flex-col w-full justify-between py-4 pl-2 h-full">
+    {
+      projects.map((project) => (
+        <div>
+          <div class="flex justify-between items-center py-1">
+            <div class="item-title list-item list-outside leading-tight">
+              {project.frontmatter.name}
+            </div>
+            {project.frontmatter.url_link && project.frontmatter.url_name && (
+              <a
+                href={project.frontmatter.url_link}
+                class="font-light text-sm text-gray-700"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {project.frontmatter.url_name}
+              </a>
+            )}
+          </div>
+          <div class="prose prose-sm p-0 prose-ul:leading-none prose-ul:my-1 prose-p:leading-tight">
+            <project.Content />
+          </div>
+        </div>
+      ))
+    }
+</section>

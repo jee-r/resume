@@ -1,0 +1,50 @@
+---
+const educations = [
+  {
+    name: "Professional Certification DWWM",
+    school: "IRFA-EST",
+    specs: "Web and Mobile Developer",
+    year: "2021",
+    city: "Mulhouse",
+  },
+  {
+    name: "Mention Complémentaire MCAS",
+    school: "Louis Armand High School",
+    specs: "Specialized Elevator Installation and Maintenance Certificate",
+    year: "2012",
+    city: "Mulhouse",
+  },
+  {
+    name: "Baccalauréat Professional ELEEC",
+    school: "Jean-Jacques Henner High School",
+    specs: "Electrical Engineering, Energy, Communicating Equipment",
+    year: "2008",
+    city: "Altkirch",
+  },
+  {
+    name: "BEP Metier de l'Electrotechnique",
+    school: "Charles Stoessel High School",
+    specs: "Certificate in Electrical Engineering Technology",
+    year: "2006",
+    city: "Mulhouse",
+  },
+];
+---
+
+<section>
+  <div class="text-xl font-semibold">Educations</div>
+  <div>
+    {
+      educations.map((item) => (
+        <div class="py-2">
+          <div>{item.name}</div>
+          <div class="text-xs py-1">{item.specs}</div>
+          <div class="flex">
+            <div class="mr-2 text-indigo-400">{item.year}</div>
+            <div class="font-extralight">{item.city}</div>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>

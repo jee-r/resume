@@ -1,0 +1,19 @@
+html,body{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 0 0 0;
+	
+    height:297mm;
+    width:210mm;
+	background-color: #2a2a2e;
+}
+
+.section-title {
+    @apply text-2xl font-semibold 
+        underline underline-offset-2 decoration-sky-500 decoration-2;
+}
+
+.item-title {
+    @apply text-lg font-semibold;
+
+}

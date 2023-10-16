@@ -1,0 +1,40 @@
+---
+import "../styles/main.css";
+import Header from "../components/Header.astro";
+import StructureCV from "../components/StructureCV.astro";
+import Button from "../components/Button.astro";
+
+import { defaultLang } from "../i18n/ui";
+
+export function getStaticPaths() {
+  const paths = [
+    { params: { i18n: undefined } },
+    { params: { i18n: "en" } },
+    { params: { i18n: "fr" } },
+  ];
+
+  return paths;
+}
+
+const { i18n } = Astro.params;
+
+const lang = i18n != undefined ? i18n : defaultLang;
+---
+
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Resume</title>
+  </head>
+  <body>
+    <Button {lang} />
+    <div id="resume" class="w-full h-full flex flex-col items-stretch bg-white p-6">
+	
+      <Header {lang} />
+      <StructureCV {lang} />
+    </div>
+  </body>
+</html>

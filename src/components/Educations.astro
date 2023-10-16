@@ -1,0 +1,32 @@
+---
+const { lang } = Astro.props;
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+const t = useTranslations(lang);
+
+const educations =
+  lang == "en"
+    ? await Astro.glob("../content/educations/en/*.md")
+    : await Astro.glob("../content/educations/fr/*.md");
+---
+
+<div class="section-title">{t("educations")}</div>
+<section class="py-2">
+  <div>
+    {
+      educations.map((item) => (
+        <div class="py-1">
+          <div class="flex  justify-between items-baseline">
+            <div class="">{item.frontmatter.name}</div>
+            <div class="flex text-sm justify-end items-baseline">
+              <div class="font-extralight text-xs mr-2">
+                {item.frontmatter.city}
+              </div>
+              <div class="">{item.frontmatter.year}</div>
+            </div>
+          </div>
+          <div class="text-xs py-1">{item.frontmatter.specs}</div>
+        </div>
+      ))
+    }
+  </div>
+</section>
