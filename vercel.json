@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      {
+        "source": "/stats/js/script.js",
+        "destination": "https://analytics.jeer.fr/js/script.tagged-events.outbound-links.file-downloads.js"
+      },
+      {
+        "source": "/stats/api/event",
+        "destination": "https://analytics.jeer.fr/api/event"
+      }
+    ]
+  }

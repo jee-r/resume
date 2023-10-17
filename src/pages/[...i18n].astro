@@ -28,6 +28,12 @@ const lang = i18n != undefined ? i18n : defaultLang;
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>Resume</title>
+    <!-- Plausible script -->
+    <script
+      src="/stats/js/script.js"
+      data-api="/stats/api/event"
+      data-domain="artz.dev"
+    ></script>
   </head>
   <body>
     <div id="resume" class="w-full h-full flex flex-col items-stretch bg-white p-6">
