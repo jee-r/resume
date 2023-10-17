@@ -3,6 +3,7 @@ name: "Ritzinger"
 firstname: "Jérémy"
 email: "j.ritzinger@ik.me"
 website: "https://www.artz.dev"
+resume_source_code_url: "https://github.com/jee-r/resume.git"
 job:
   en: "Web developper"
   fr : "Développeur Web"

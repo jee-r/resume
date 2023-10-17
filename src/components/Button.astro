@@ -1,27 +1,35 @@
 ---
 const { lang } = Astro.props;
 
-import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import * as config from "../content/_config.md";
+
+import { useTranslations } from "../i18n/utils";
 const t = useTranslations(lang);
 ---
 
-<div id="pdf-btn" class="h-16 flex items-center justify-evenly 
+<div id="pdf-btn" class="h-16 flex items-center justify-center 
     absolute m-4 lg:top-4 lg:right-4
     text-lg font-semibold text-white gap-1"
 >
   <a
     href="/fr"
-    class="p-4 w-full h-full border border-white bg-blue-500 hover:bg-blue-400"
+    class="p-4 h-full border border-white bg-blue-500 hover:bg-blue-400"
     >FR</a
   >
   <a
     href="/en"
-    class="p-4 w-full h-full border border-white bg-blue-500 hover:bg-blue-400"
+    class="p-4 h-full border border-white bg-blue-500 hover:bg-blue-400"
     >EN</a
   >
   <a
     href={`/resume_${lang}.pdf`}
-    class="p-4 w-full h-full border border-white bg-blue-500 hover:bg-blue-400"
+    class="p-4 h-full border border-white bg-blue-500 hover:bg-blue-400"
     >{t("download")}</a
+  >
+  <a
+    href={config.frontmatter.resume_source_code_url}
+    target="_blank"
+    class="p-4 h-full border border-white bg-blue-500 hover:bg-blue-400"
+    >{t("source_code")}</a
   >
 </div>
