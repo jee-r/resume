@@ -4,4 +4,5 @@ job_title: "Freelance"
 location: "Altkirch, France"
 period: "2021 - Now"
 ---
-Manage projects from the mock up to the deployement in production.
+
+As a freelancer, I managed the entire process of website development, from designing mockups to deploying in production.

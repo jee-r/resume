@@ -4,4 +4,4 @@ job_title: "Freelance"
 location: "Altkirch, France"
 period: "depuis 2021"
 ---
-Développement de sites web de la maquette jusqu'à la mise en production.
+Conception et développement de sites web, de la maquette à la mise en production en tant que freelance.
