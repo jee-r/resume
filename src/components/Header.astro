@@ -1,12 +1,12 @@
 ---
 const { lang } = Astro.props
 
-import * as hero from  "../content/_hero.md"
+import * as config from  "../content/_config.md"
 import LayeredBg from '../assets/layered-steps-haikei.svg';
 
 const svgBg = `url(${LayeredBg.src})`
 
-const { firstname, name, job, aboutText, links} = hero.frontmatter
+const { firstname, name, job, aboutText, links} = config.frontmatter
 
 ---
 

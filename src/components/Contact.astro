@@ -2,9 +2,9 @@
 import Link from "./icons/Link.astro";
 import Mail from "./icons/Mail.astro";
 
-import * as contact from "../content/_contact.md";
-const email = contact.frontmatter.email;
-const website = new URL(contact.frontmatter.website);
+import * as config from "../content/_config.md";
+const email = config.frontmatter.email;
+const website = new URL(config.frontmatter.website);
 ---
 
 <div class="section-title">Contact</div>

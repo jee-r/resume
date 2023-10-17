@@ -1,6 +1,8 @@
 ---
 name: "Ritzinger"
 firstname: "Jérémy"
+email: "j.ritzinger@ik.me"
+website: "https://www.artz.dev"
 job:
   en: "Web developper"
   fr : "Développeur Web"
