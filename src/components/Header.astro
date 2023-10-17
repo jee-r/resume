@@ -1,16 +1,14 @@
 ---
-const { lang } = Astro.props
+const { lang } = Astro.props;
 
-import * as config from  "../content/_config.md"
-import LayeredBg from '../assets/layered-steps-haikei.svg';
+import * as config from "../content/_config.md";
+const { firstname, name, job, aboutText, links } = config.frontmatter;
 
-const svgBg = `url(${LayeredBg.src})`
-
-const { firstname, name, job, aboutText, links} = config.frontmatter
-
+import LayeredBg from "../assets/layered-steps-haikei.svg";
+const svgBg = `url(${LayeredBg.src})`;
 ---
 
-<style define:vars={{svgBg}}>
+<style define:vars={{ svgBg }}>
   .layered-bg {
     background-image: var(--svgBg);
     background-size: contain;
@@ -18,7 +16,6 @@ const { firstname, name, job, aboutText, links} = config.frontmatter
     background-repeat: no-repeat;
   }
 </style>
-
 
 <section>
   <div class="flex items-center">
