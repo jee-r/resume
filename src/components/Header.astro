@@ -2,9 +2,25 @@
 const { lang } = Astro.props;
 
 import * as config from "../content/_config.md";
-const { firstname, name, job, aboutText, links } = config.frontmatter;
+const {
+  firstname,
+  name,
+  job,
+  aboutText,
+  localization,
+  website,
+  email,
+  github,
+  linkedin,
+} = config.frontmatter;
+const website_url = new URL(website);
 
 import LayeredBg from "../assets/layered-steps-haikei.svg";
+import Link from "./icons/Link.astro";
+import Mail from "./icons/Mail.astro";
+import Map from "./icons/Map.astro";
+import Github from "./icons/Github.astro";
+import Linkedin from "./icons/Linkedin.astro";
 const svgBg = `url(${LayeredBg.src})`;
 ---
 
@@ -31,19 +47,32 @@ const svgBg = `url(${LayeredBg.src})`;
       <div class="text-gray-700">
         {`${aboutText[lang]}`}
       </div>
-      <div class="flex space-x-3 mt-2 text-gray-500 uppercase text-xs">
-        {
-          links.map((link) => (
-            <a
-              href={link.url}
-              class="duration-200 hover:text-gray-400"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {link.name}
-            </a>
-          ))
-        }
+      <div class="flex mt-2 text-gray-800 text-sm">
+        <a
+          href={website_url}
+          class="flex justify-center items-center pr-4 border-r"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Link class="h-4 w-4 mr-1" />
+          {website_url.hostname}
+        </a>
+        <a href={`mailto:${email}`} class="flex items-center px-4 border-r">
+          <Mail class="h-4 w-4 mr-1" />
+          {email}
+        </a>
+        <div class="flex items-center px-4 border-r">
+          <Map class="h-4 w-4 mr-1" />
+          {localization}
+        </div>
+        <a href={github.url} class="flex items-center px-4 border-r">
+          <Github class="h-4 w-4 mr-1" />
+          {github.name}
+        </a>
+        <a href={linkedin.url} class="flex items-center pl-4 border-l">
+          <Linkedin class="h-4 w-4 mr-1" />
+          <span>{linkedin.name}</span>
+        </a>
       </div>
     </div>
   </div>
