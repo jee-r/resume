@@ -1,7 +1,7 @@
 ---
-name: "ferme-roetling.fr"
-url_name: "www.ferme-roetling.fr"
-url_link: "https://www.ferme-roetling.fr"
+name: "Ferme du Roetling"
+url_name: "www.fermeduroetling.fr"
+url_link: "https://www.fermeduroetling.fr"
 # descritption: "Showcase website"
 ---
 Développement d'un site vitrine en utilisant *Astro*, un framework **JavaScript**, et utilisation de **TypeScript**.

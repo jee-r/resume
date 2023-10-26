@@ -1,5 +1,5 @@
 ---
-name: "mine-saint-nicolas.fr"
+name: "Mine Saint-Nicolas"
 url_name: "www.mine-saint-nicolas.fr"
 url_link: "https://www.mine-saint-nicolas.fr"
 date: "2023-07"
