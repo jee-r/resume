@@ -3,7 +3,7 @@
 import Educations from "./Educations.astro";
 import Works from "./Works.astro";
 import Projects from "./Projects.astro";
-import Languages from "./Languages.astro";
+import Skills from "./Skills.astro";
 
 const { lang } = Astro.props;
 ---
@@ -12,9 +12,9 @@ const { lang } = Astro.props;
   <div class="flex basis-2/5 w-full">
     <div class="flex flex-col">
       <!-- <Contact {lang} /> -->
+      <Skills {lang} />
       <Educations {lang} />
       <Works {lang} />
-      <Languages {lang} />
     </div>
   </div>
   <div class="flex basis-3/5 w-full h-full">
