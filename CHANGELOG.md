@@ -1,3 +1,16 @@
+## [0.2.0](https://github.com/jee-r/resume/compare/v0.1.3...v0.2.0) (2023-10-27)
+
+
+### Features
+
+* add properties to pdf file ([f0afa0e](https://github.com/jee-r/resume/commit/f0afa0e4640d107129a48d6a99cd2d94a6833a1f))
+* **seo:** add name in document title ([1f46fc6](https://github.com/jee-r/resume/commit/1f46fc6b95d04e76001e089c35528d014528a285))
+
+
+### Build System
+
+* disable plausible analytics by default ([da4cd25](https://github.com/jee-r/resume/commit/da4cd2519ba8d314b7afb4a2f460ec78edef20c9))
+
 ## [0.1.3](https://github.com/jee-r/resume/compare/v0.1.2...v0.1.3) (2023-10-27)
 
 
