@@ -18,4 +18,8 @@ github:
 linkedin:
   name: "jrtz"
   url: "https://www.linkedin.com/in/jrtz"
+plausible:
+  src: "/stats/js/script.js"
+  data_api: "/stats/api/event"
+  data_domain: "resume.artz.dev"
 ---
