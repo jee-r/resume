@@ -1,0 +1,71 @@
+## [0.1.0](https://github.com/jee-r/resume/compare/v0.0.4...v0.1.0) (2023-10-27)
+
+
+### Build System
+
+* add conventional changelog ([37a3a48](https://github.com/jee-r/resume/commit/37a3a4895894cf6c0c0d4cac04e15e4ad6307a32))
+
+## [0.0.4](https://github.com/jee-r/resume/compare/v0.0.3...v0.0.4) (2023-10-26)
+
+
+### Features
+
+* replace Languages with skills ([88e37d7](https://github.com/jee-r/resume/commit/88e37d747a2cfc842cdfe7aa87ca232af7270657))
+
+## [0.0.3](https://github.com/jee-r/resume/compare/v0.0.2...v0.0.3) (2023-10-26)
+
+
+### Content
+
+* reduce bullet points content ([8dad6fd](https://github.com/jee-r/resume/commit/8dad6fd85a854e6f0f2785c72b26d2fa5365111a))
+
+## [0.0.2](https://github.com/jee-r/resume/compare/2067c03b33673e62fe92e343078cf5a686f4b325...v0.0.2) (2023-10-26)
+
+
+### Features
+
+* add languages and remove contact section ([e36e10c](https://github.com/jee-r/resume/commit/e36e10ca0fef10a1b3d5447bff88852a637cbd2a))
+* add languages section ([2e30f15](https://github.com/jee-r/resume/commit/2e30f1574feaeb6bb2a3bc43d5d42eacf5538de8))
+* add plausible analytics ([963295d](https://github.com/jee-r/resume/commit/963295df77873137a0c05b7a2b3bb107b00877ab))
+* add source code link ([7454976](https://github.com/jee-r/resume/commit/74549767d5f16b49b7967cc77fbc5408219595af))
+* put contact and social links in header ([4bb5ca2](https://github.com/jee-r/resume/commit/4bb5ca2a0275bbfe82940a6dc767e539794fd547))
+
+
+### Bug Fixes
+
+* generate pdf don't clean git directory before commit ([7655bdd](https://github.com/jee-r/resume/commit/7655bdd8fe94080c380ab3ddde9293dcabaf8040))
+* **mobile:** button on bottom ([2067c03](https://github.com/jee-r/resume/commit/2067c03b33673e62fe92e343078cf5a686f4b325))
+* ordering content ([3f05716](https://github.com/jee-r/resume/commit/3f05716d4a1c34755e55ef638e5a668b04275dce))
+* update plausible subdomain name ([f3d9b20](https://github.com/jee-r/resume/commit/f3d9b205c7377be8429adaf8df00f21b64677f93))
+
+
+### Styles
+
+* education item title in  semibold ([04111fa](https://github.com/jee-r/resume/commit/04111fa09f06469f09ee8e1f9687713c12a027aa))
+* rearrange import and rm empty spaces ([3bfc3ff](https://github.com/jee-r/resume/commit/3bfc3ff3327e9dca961266c7aec13b77c5f2265d))
+
+
+### Code Refactoring
+
+* merge hero and contact content in config ([18925d4](https://github.com/jee-r/resume/commit/18925d469e76d284e6a0feae882aa79d62e02e32))
+* set contact data in md file ([c3148e9](https://github.com/jee-r/resume/commit/c3148e97031316ee2307edce8d4872a4ebbade9b))
+
+
+### Build System
+
+* **ci:** automated pdf generation ([b0414df](https://github.com/jee-r/resume/commit/b0414dfb4d7122bd3a98dfcfd7117c8cc8652eed))
+* **dev:** add -hhost param ([1516d6a](https://github.com/jee-r/resume/commit/1516d6add5a3dc13c2c95eba04564b9fa8a75035))
+
+
+### Continuous Integration
+
+* add ci generate-pdf script ([acd0e56](https://github.com/jee-r/resume/commit/acd0e563d8e25a9259538c089c214e3af52c4834))
+
+
+### Content
+
+* remove point at the end bulletpoint ([352a81f](https://github.com/jee-r/resume/commit/352a81f37287feda189cc5bdbbc056a4c9d97d05))
+* replace name with real name instead domain ([8ab1612](https://github.com/jee-r/resume/commit/8ab161241caecd3fe3b3eb97dbc319036e1cf1e7))
+* typo ([2084b57](https://github.com/jee-r/resume/commit/2084b57eafbafa2e738dc49b9cffd1034f0df6ab))
+* update ARTZ description ([8ab6a74](https://github.com/jee-r/resume/commit/8ab6a74b1efd2240abfaca246e30a767c858223d))
+
