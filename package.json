@@ -9,7 +9,10 @@
     "preview": "astro preview",
     "astro": "astro",
     "generate-pdf": "ts-node --project tsconfig-pdf.json ./scripts/generate-pdf.ts",
-    "generate-pdf:ci": "start-server-and-test http://localhost:4321 generate-pdf"
+    "generate-pdf:ci": "start-server-and-test http://localhost:4321 generate-pdf",
+    "changelog-latest": "conventional-changelog --config ./changelog-config.cjs -r 1",
+    "changelog": "conventional-changelog --config ./changelog-config.cjs -i CHANGELOG.md -s",
+    "version": "conventional-changelog --config ./changelog-config.cjs -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.0.2",
@@ -18,6 +21,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
+    "conventional-changelog-cli": "^4.1.0",
     "playwright": "^1.39.0",
     "start-server-and-test": "^2.0.1",
     "ts-node": "^10.9.1"
