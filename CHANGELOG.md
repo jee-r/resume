@@ -1,3 +1,11 @@
+## [0.1.2](https://github.com/jee-r/resume/compare/v0.1.1...v0.1.2) (2023-10-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency astro to v3.4.0 ([2a73c50](https://github.com/jee-r/resume/commit/2a73c50c5e4745fd46344cbb61adb48f9809e42c))
+* **deps:** update dependency tailwindcss to v3.3.5 ([c747a29](https://github.com/jee-r/resume/commit/c747a296373bfb877a65a6266591e22720d57069))
+
 ## [0.1.1](https://github.com/jee-r/resume/compare/v0.1.0...v0.1.1) (2023-10-27)
 
 
