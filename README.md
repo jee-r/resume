@@ -1,14 +1,6 @@
-# Astro Starter Kit: Minimal
+# Resume 
 
-```sh
-npm create astro@latest -- --template minimal
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This is my resume source code availaible at https://resume.artz.dev
 
 ## 🚀 Project Structure
 
@@ -19,15 +11,41 @@ Inside of your Astro project, you'll see the following folders and files:
 ├── public/
 ├── src/
 │   └── pages/
-│       └── index.astro
+│   |   └── index.astro
+|   └── contents
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Content
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
+```text
+src/content
+├── _config.md      # Main Config
+├── config.ts       # Datatypes
+├── educations
+│   ├── en
+│   │   ├── 1_degree2.md
+│   │   ├── 2_degree1.md
+│   └── fr
+│       ├── 1_degree1.md
+│       ├── 2_degree2.md
+├── projects
+│   ├── en
+│   │   ├── 1_my_awesome_project.md
+│   │   ├── 2_my_super_project.md
+│   └── fr
+│       ├── 1_my_awesome_project.md
+│       ├── 2_my_super_project.md
+├── _skills_en.md
+├── _skills_fr.md
+└── works
+    ├── en
+    │   ├── 1_work_exp1.md
+    │   └── 2_work_exp2.md
+    └── fr
+        ├── 1_work_exp1.md
+        └── 2_work_exp2.md
+```
 
 ## 🧞 Commands
 
@@ -41,7 +59,5 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm run generate-pdf:ci` | Build pdfs file                                  |
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
