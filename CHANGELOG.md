@@ -1,3 +1,10 @@
+## [0.1.1](https://github.com/jee-r/resume/compare/v0.1.0...v0.1.1) (2023-10-27)
+
+
+### Documentation
+
+* update Readme ([8fcc5b5](https://github.com/jee-r/resume/commit/8fcc5b58e18929b5ffa0bccf71393ddebf47ef0d))
+
 ## [0.1.0](https://github.com/jee-r/resume/compare/v0.0.4...v0.1.0) (2023-10-27)
 
 
