@@ -1,4 +1,9 @@
 import { chromium } from "playwright";
+import { PDFDocument } from 'pdf-lib';
+import matter from 'gray-matter';
+import fs from "fs";
+
+const config_file: string = "src/content/_config.md"
 
 async function generatePDF(url: string, outputPath: string) {
   const browser = await chromium.launch();
@@ -31,5 +36,38 @@ async function generatePDF(url: string, outputPath: string) {
   }
 }
 
+async function addPropertiesToPDF(pdfPath: string, language: string, lang: string) {
+ 
+  // Get Data from Mardown Config file
+  const config_matter = await matter.read(config_file);
+  const {name, firstname, aboutText} = config_matter.data
+
+  // Get the date
+  const now = new Date()
+
+  // Read the local PDF file
+  const pdfBytes = fs.readFileSync(pdfPath);
+
+  // Load the PDF using pdf-lib
+  const pdfDoc = await PDFDocument.load(pdfBytes);
+
+  // Set PDF properties
+  pdfDoc.setTitle(`${name} ${firstname} Resume`);
+  pdfDoc.setSubject(aboutText[lang])
+  pdfDoc.setAuthor(`${name} ${firstname}`);
+  pdfDoc.setCreator(`${name} ${firstname}`);
+  pdfDoc.setProducer('https://resume.artz.dev');
+  pdfDoc.setLanguage(language);
+  pdfDoc.setCreationDate(now);
+  
+  // Serialize the PDF with the author property
+  const modifiedPdfBytes = await pdfDoc.save();
+  
+  // Save the modified PDF to the specified output file
+  fs.writeFileSync(pdfPath, modifiedPdfBytes);
+}
+
 await generatePDF("http://localhost:4321/fr", "public/resume_fr.pdf");
+await addPropertiesToPDF("public/resume_fr.pdf", "Français", "fr")
 await generatePDF("http://localhost:4321/en", "public/resume_en.pdf");
+await addPropertiesToPDF("public/resume_en.pdf", "English", "en")
