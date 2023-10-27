@@ -1,3 +1,10 @@
+## [0.1.3](https://github.com/jee-r/resume/compare/v0.1.2...v0.1.3) (2023-10-27)
+
+
+### Build System
+
+* rename project ([965c62d](https://github.com/jee-r/resume/commit/965c62de8a88bd66116ee005987abab3c3bdcffc))
+
 ## [0.1.2](https://github.com/jee-r/resume/compare/v0.1.1...v0.1.2) (2023-10-27)
 
 
