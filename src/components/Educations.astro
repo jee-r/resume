@@ -14,8 +14,8 @@ const educations =
   <div>
     {
       educations.map((item) => (
-        <div class="py-1">
-          <div class="flex  justify-between items-baseline">
+        <div class="pt-1">
+          <div class="flex justify-between items-baseline">
             <div class="font-semibold">{item.frontmatter.name}</div>
             <div class="flex text-sm justify-end items-baseline">
               <div class="font-extralight text-xs mr-2">
@@ -24,7 +24,7 @@ const educations =
               <div class="">{item.frontmatter.year}</div>
             </div>
           </div>
-          <div class="text-xs py-1">{item.frontmatter.specs}</div>
+          <div class="text-xs pb-1">{item.frontmatter.specs}</div>
         </div>
       ))
     }
