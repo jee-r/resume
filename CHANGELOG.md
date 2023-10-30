@@ -1,3 +1,15 @@
+## [0.2.1](https://github.com/jee-r/resume/compare/v0.2.0...v0.2.1) (2023-10-30)
+
+
+### Styles
+
+* reduce padding on education section ([2684053](https://github.com/jee-r/resume/commit/2684053d5690d061b9697c04ca28387f713dcd54))
+
+
+### Content
+
+* add soft skills ([08a2c65](https://github.com/jee-r/resume/commit/08a2c657bfd932282ae4bed02a178c31ff0394bd))
+
 ## [0.2.0](https://github.com/jee-r/resume/compare/v0.1.3...v0.2.0) (2023-10-27)
 
 
