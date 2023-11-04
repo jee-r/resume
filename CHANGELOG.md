@@ -1,3 +1,20 @@
+## [0.2.2](https://github.com/jee-r/resume/compare/v0.2.1...v0.2.2) (2023-11-04)
+
+
+### Styles
+
+* force font size on body ([ea61b6d](https://github.com/jee-r/resume/commit/ea61b6dd247336848ec253328cd2d4b3776c5564))
+
+
+### Chores
+
+* **deps:** update actions/setup-node action to v4 ([9f89196](https://github.com/jee-r/resume/commit/9f89196c662723b897c1f89f613c0c1fbb05d42e))
+
+
+### Code Refactoring
+
+* add class for resume-btn ([3d640c3](https://github.com/jee-r/resume/commit/3d640c34a17e4a1b510175a5236cece9545dca06))
+
 ## [0.2.1](https://github.com/jee-r/resume/compare/v0.2.0...v0.2.1) (2023-10-30)
 
 
