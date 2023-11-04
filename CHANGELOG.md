@@ -1,3 +1,10 @@
+## [0.2.3](https://github.com/jee-r/resume/compare/v0.2.2...v0.2.3) (2023-11-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency astro to v3.4.3 ([1f32013](https://github.com/jee-r/resume/commit/1f3201397e6ca6c1b2567db70c710ee894d18aa2))
+
 ## [0.2.2](https://github.com/jee-r/resume/compare/v0.2.1...v0.2.2) (2023-11-04)
 
 
