@@ -2,11 +2,14 @@ html,body{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0 0 0 0;
-	
     height:297mm;
     width:210mm;
 	background-color: #2a2a2e;
+    /* Force font size because we need to fit A4 format */
+    font-size: 16px;
+    line-height: 24px;
 }
+
 
 .section-title {
     @apply text-2xl font-semibold 
