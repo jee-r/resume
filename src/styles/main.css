@@ -20,3 +20,7 @@ html,body{
     @apply text-lg font-semibold;
 
 }
+
+.resume-btn {
+    @apply p-6 lg:px-4 lg:py-2 h-full w-max border border-white bg-blue-500 hover:bg-blue-400;
+}
