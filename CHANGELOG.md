@@ -1,3 +1,10 @@
+## [0.2.6](https://github.com/jee-r/resume/compare/v0.2.5...v0.2.6) (2024-01-04)
+
+
+### Continuous Integration
+
+* manualy run pdf workflow ([5d96235](https://github.com/jee-r/resume/commit/5d962359f369064f445079e4276e1e58603eb9c1))
+
 ## [0.2.5](https://github.com/jee-r/resume/compare/v0.2.4...v0.2.5) (2024-01-04)
 
 
