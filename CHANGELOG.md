@@ -1,3 +1,10 @@
+## [0.2.5](https://github.com/jee-r/resume/compare/v0.2.4...v0.2.5) (2024-01-04)
+
+
+### Bug Fixes
+
+* typo ([ce91f47](https://github.com/jee-r/resume/commit/ce91f47a5e2622af9e431f248e9cae4a9f4161e3))
+
 ## [0.2.4](https://github.com/jee-r/resume/compare/v0.2.3...v0.2.4) (2024-01-04)
 
 
