@@ -2,7 +2,8 @@
   "extends": "ts-node/node16/tsconfig.json",
   "compilerOptions": {
     "module": "ESNext",
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
   },
   "ts-node": {
     "esm": true
