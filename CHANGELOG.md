@@ -1,3 +1,25 @@
+## [0.2.4](https://github.com/jee-r/resume/compare/v0.2.3...v0.2.4) (2024-01-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @astrojs/tailwind to v5.1.0 ([94fae77](https://github.com/jee-r/resume/commit/94fae77cda17ff3f3906c1343831f8d7ff8e67b3))
+* **deps:** update dependency astro to v3.6.4 ([319a6b7](https://github.com/jee-r/resume/commit/319a6b731e60c85c397d59f392281b303a58dc65))
+* **deps:** update dependency tailwindcss to v3.4.0 ([2a444d7](https://github.com/jee-r/resume/commit/2a444d76b597beff0b23c3f50425ccb5ab5ca618))
+
+
+### Chores
+
+* **deps:** update dependency playwright to v1.40.1 ([5432c21](https://github.com/jee-r/resume/commit/5432c214365ea013cf862420bed7bcf46b742bfe))
+* **deps:** update dependency start-server-and-test to v2.0.2 ([24e4606](https://github.com/jee-r/resume/commit/24e46060d702f648f052869a122ed498e3d85b4e))
+* **deps:** update dependency start-server-and-test to v2.0.3 ([9771f5f](https://github.com/jee-r/resume/commit/9771f5f8403235fd01f563889be29d2edfe54350))
+* **deps:** update dependency ts-node to v10.9.2 ([d64df68](https://github.com/jee-r/resume/commit/d64df68f1b63b4904c184bc799a5b9214b4fa62d))
+* update playwright ([d0b678b](https://github.com/jee-r/resume/commit/d0b678b1969e731bc9bb23222f1ae488d7eff813))
+* update start-server-and-test ([d19ad82](https://github.com/jee-r/resume/commit/d19ad8229052a1193b94f4f4c5ade31ccc953972))
+* update tailwind deps ([f348b89](https://github.com/jee-r/resume/commit/f348b892436f102f5e351e8c0819a1f9d7b4d46a))
+* update to Astro v4 ([95bcb39](https://github.com/jee-r/resume/commit/95bcb398157ac05c5453e91f7dd046265586010e))
+* update ts-node ([6ed54d2](https://github.com/jee-r/resume/commit/6ed54d2a79131eadbded4af1d52316eff4749d13))
+
 ## [0.2.3](https://github.com/jee-r/resume/compare/v0.2.2...v0.2.3) (2023-11-04)
 
 
