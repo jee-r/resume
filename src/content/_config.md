@@ -6,7 +6,7 @@ website: "https://www.artz.dev"
 localization: "Altkirch, France"
 resume_source_code_url: "https://github.com/jee-r/resume.git"
 job:
-  en: "Web developper"
+  en: "Web developer"
   fr : "Développeur Web"
 aboutText: 
   en: "Innovative, self-taught web developer, driven by curiosity and problem-solving."
