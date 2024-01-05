@@ -1,3 +1,21 @@
+## [0.2.7](https://github.com/jee-r/resume/compare/v0.2.6...v0.2.7) (2024-01-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency astro to v4.1.0 ([d661202](https://github.com/jee-r/resume/commit/d661202be38eac34aeb9ae5d30f886787f24d0f1))
+* generate pdf module error ([8f6358d](https://github.com/jee-r/resume/commit/8f6358d4fee7dcd074b4a55be4b202fe87c07d64))
+* generate pdf module error ([87e0b6c](https://github.com/jee-r/resume/commit/87e0b6c2017f1cd09bf0d2bf64b8841ddfa5a291))
+* use build and preview to generate pdfs ([444968f](https://github.com/jee-r/resume/commit/444968f4c0f33cfc1f8e6f005c1a8b0bcbfe295d))
+
+
+### Continuous Integration
+
+* fix node version ([51b9016](https://github.com/jee-r/resume/commit/51b901625592d8f7c755ab8b86074a749f42185e))
+* fix typo  generate pdf install ts-node globaly [skip ci] ([32c73dd](https://github.com/jee-r/resume/commit/32c73ddc8cf4e448a98d92410d18625f68d210c3))
+* fix typo  generate pdf install ts-node globaly [skip ci] ([28b6a3f](https://github.com/jee-r/resume/commit/28b6a3fda51a44bbe0d54bc35266489418ea0463))
+* generate pdf install ts-node globaly ([0cb6431](https://github.com/jee-r/resume/commit/0cb6431623bf7c5c4be7db1fc2dcf0562acef924))
+
 ## [0.2.6](https://github.com/jee-r/resume/compare/v0.2.5...v0.2.6) (2024-01-04)
 
 
