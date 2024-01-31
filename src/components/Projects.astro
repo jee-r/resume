@@ -9,12 +9,12 @@ const projects =
     : await Astro.glob("../content/projects/fr/*.md");
 ---
 
-<div>
+<section class="projects">
   <div class="section-title">{t("projects")}</div>
-  <section class="timeline flex flex-col w-full py-2 h-full">
+  <div class="timeline items-container flex flex-col w-full h-full">
     {
       projects.map((project) => (
-        <div class="timeline-item">
+        <div class="timeline-item item">
           <div class="flex justify-between items-center">
             <div class="item-title leading-tight">
               {project.frontmatter.name}
@@ -30,12 +30,14 @@ const projects =
               </a>
             )}
           </div>
-            <div class="item-desc prose prose-sm p-0 prose-ul:leading-none prose-ul:my-1 prose-p:leading-tight 
-            ">
+          <div
+            class="item-desc prose prose-sm py-1 prose-ul:leading-none prose-ul:my-1 prose-p:leading-tight 
+            "
+          >
             <project.Content />
-            </div>
+          </div>
         </div>
       ))
     }
-  </section>
-</div>
+  </div>
+</section>

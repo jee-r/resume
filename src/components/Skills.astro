@@ -6,7 +6,9 @@ import * as skills_en from "../content/_skills_en.md";
 import * as skills_fr from "../content/_skills_fr.md";
 ---
 
-<div class="section-title">{t("skills")}</div>
-<section class="py-2 prose prose-sm">
-  {lang == "en" ? <skills_en.Content /> : <skills_fr.Content />}
+<section class="skills">
+  <div class="section-title">{t("skills")}</div>
+  <div class="items-container prose prose-sm text-xs">
+    {lang == "en" ? <skills_en.Content /> : <skills_fr.Content />}
+  </div>
 </section>
