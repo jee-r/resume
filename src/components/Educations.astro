@@ -9,22 +9,25 @@ const educations =
     : await Astro.glob("../content/educations/fr/*.md");
 ---
 
-<div class="section-title">{t("educations")}</div>
-<section class="py-2">
-  <div>
+<section class="educations">
+  <div class="section-title">{t("educations")}</div>
+  <div class="items-container">
     {
       educations.map((item) => (
-        <div class="pt-1">
+        <div class="item">
           <div class="flex justify-between items-baseline">
-            <div class="font-semibold">{item.frontmatter.name}</div>
+            <div class="font-semibold item-title">{item.frontmatter.name}</div>
             <div class="flex text-sm justify-end items-baseline">
               <div class="font-extralight text-xs mr-2">
                 {item.frontmatter.city}
               </div>
-              <div class="">{item.frontmatter.year}</div>
+              <div class="font-md">{item.frontmatter.year}</div>
             </div>
           </div>
-          <div class="text-xs pb-1">{item.frontmatter.specs}</div>
+          <div class="item-subtitle">{item.frontmatter.specs}</div>
+          <div class=" item-content">
+            <item.Content />
+          </div>
         </div>
       ))
     }
