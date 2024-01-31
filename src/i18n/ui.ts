@@ -16,6 +16,7 @@ export const ui = {
         "source_code": "Source code",
         "languages": "Languages",
         "skills": "Skills",
+        "hobbies": "Interests and Hobbies",
     },
     fr: {
         "about": "À propos",
@@ -27,5 +28,7 @@ export const ui = {
         "source_code": "Code Source",
         "languages": "Langues",
         "skills": "Compétences",
+        "hobbies": "Centres d'interêt",
+
     },
 } as const;
