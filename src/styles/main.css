@@ -10,12 +10,21 @@ html,body{
     line-height: 24px;
 }
 
+section {
+    @apply py-2 ;
 
+}
 .section-title {
     @apply text-xl font-semibold 
-        underline underline-offset-2 decoration-sky-500 decoration-2;
+    underline underline-offset-2 decoration-sky-500 decoration-2;
 }
 
+.items-container {
+    @apply py-1;
+}
+.item {
+    @apply py-0.5
+}
 .item-title {
     @apply text-sm font-semibold;
 
@@ -29,12 +38,14 @@ html,body{
 }
 
 .item-content {
-    @apply item-desc prose prose-sm p-0 prose-ul:leading-none prose-ul:my-1 prose-p:leading-tight;
+    @apply text-xs prose prose-sm p-0 py-1 prose-ul:leading-none prose-ul:my-1 prose-p:leading-tight;
 }
 
 .resume-btn {
     @apply p-6 lg:px-4 lg:py-2 h-full w-max border border-white bg-blue-500 hover:bg-blue-400;
 }
+
+
 /* Timeline */
 
 .timeline-item {
@@ -48,6 +59,7 @@ html,body{
 .timeline-item:before {
     content: '';
     background-color: #0ea5e9;
+    /* background: linear-gradient(0deg, rgba(56,189,248,1) 70%, rgba(14,165,233,1) 100%); */
     position: absolute;
     bottom: 0px;
     top: 0px;
