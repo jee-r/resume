@@ -66,8 +66,12 @@ async function addPropertiesToPDF(pdfPath: string, language: string, lang: strin
   // Save the modified PDF to the specified output file
   fs.writeFileSync(pdfPath, modifiedPdfBytes);
 }
+  
+const config_matter = await matter.read(config_file);
+const {pdfFilename} = config_matter.data
+  
 
-await generatePDF("http://localhost:4321/fr", "public/resume_fr.pdf");
+await generatePDF("http://localhost:4321/fr", `public/${pdfFilename["fr"]}.pdf`);
 await addPropertiesToPDF("public/resume_fr.pdf", "Français", "fr")
-await generatePDF("http://localhost:4321/en", "public/resume_en.pdf");
+await generatePDF("http://localhost:4321/en", `public/${pdfFilename["en"]}.pdf`);
 await addPropertiesToPDF("public/resume_en.pdf", "English", "en")
