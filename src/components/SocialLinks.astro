@@ -1,0 +1,55 @@
+---
+import Link from "./icons/Link.astro";
+import Mail from "./icons/Mail.astro";
+import Phone from "./icons/Phone.astro"
+import Map from "./icons/Map.astro";
+
+import Github from "./icons/Github.astro";
+import Linkedin from "./icons/Linkedin.astro";
+import * as config from "../content/_config.md";
+
+const {
+  localization,
+  website,
+  email,
+  phone,
+  github,
+  linkedin,
+} = config.frontmatter;
+
+const website_url = new URL(website)
+---
+
+<div class="flex mt-2 text-gray-800 text-sm">
+  <a
+    href={website_url}
+    class="flex justify-center items-center pr-4 border-r"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Link class="h-4 w-4 mr-1" />
+    {website_url.hostname}
+  </a>
+  <a href={`mailto:${email}`} class="flex items-center px-4 border-r">
+    <Mail class="h-4 w-4 mr-1" />
+    {email}
+  </a>
+  { phone && 
+  <a href={`tel:${phone}`} class="flex items-center px-4 border-r">
+    <Phone class="h-4 w-4 mr-1" />
+    {phone}
+  </a>
+  }
+  <div class="flex items-center px-4 border-r">
+    <Map class="h-4 w-4 mr-1" />
+    {localization}
+  </div>
+  <a href={github.url} class="flex items-center px-4 border-r">
+    <Github class="h-4 w-4 mr-1" />
+    {github.name}
+  </a>
+  <a href={linkedin.url} class="flex items-center pl-4 border-l">
+    <Linkedin class="h-4 w-4 mr-1" />
+    <span>{linkedin.name}</span>
+  </a>
+</div>
