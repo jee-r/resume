@@ -16,9 +16,9 @@
     "version": "conventional-changelog --config ./changelog-config.cjs -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "dependencies": {
-    "@astrojs/mdx": "^2.0.0",
+    "@astrojs/mdx": "^2.1.1",
     "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.0.9",
+    "astro": "^4.3.0",
     "tailwindcss": "^3.4.0"
   },
   "devDependencies": {
