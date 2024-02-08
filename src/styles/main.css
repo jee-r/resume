@@ -11,11 +11,11 @@ html,body{
 }
 
 section {
-    @apply py-2 ;
+    @apply mt-2  ;
 
 }
 .section-title {
-    @apply text-xl font-semibold 
+    @apply text-xl font-semibold mb-1
     underline underline-offset-2 decoration-sky-500 decoration-2;
 }
 
@@ -38,7 +38,39 @@ section {
 }
 
 .item-content {
-    @apply text-xs prose prose-sm p-0 py-1 prose-ul:leading-none prose-ul:my-1 prose-p:leading-tight;
+    @apply 
+    text-xs 
+    p-0 py-0.5 
+    prose prose-sm 
+    prose-ul:leading-none 
+    prose-ul:my-1 
+    prose-li:my-1 
+    prose-p:my-0.5
+    prose-p:leading-tight;
+
+}
+.profile-content {
+    @apply  
+    p-0 py-0.5 
+    prose prose-sm 
+    prose-ul:leading-none 
+    prose-ul:my-1 
+    prose-li:my-1 
+    prose-p:my-0.5
+    prose-p:leading-tight;
+
+}
+.work-content {
+    @apply 
+    text-sm 
+    p-0 py-0.5 
+    prose prose-sm 
+    prose-ul:leading-none 
+    prose-ul:my-1 
+    prose-li:my-2
+    prose-p:my-0.5
+    prose-p:leading-tight;
+
 }
 
 .resume-btn {
