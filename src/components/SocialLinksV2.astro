@@ -1,0 +1,57 @@
+---
+import Link from "./icons/Link.astro";
+import Mail from "./icons/Mail.astro";
+import Phone from "./icons/Phone.astro"
+import Map from "./icons/Map.astro";
+
+import Github from "./icons/Github.astro";
+import Linkedin from "./icons/Linkedin.astro";
+import * as config from "../content/_config.md";
+
+const {
+  localization,
+  website,
+  email,
+  phone,
+  github,
+  linkedin,
+} = config.frontmatter;
+
+const website_url = new URL(website)
+---
+<section class="social-links">
+  <!-- <div class="section-title">Contact</div> -->
+<div class="flex flex-col text-base py-2 gap-1">
+  <a
+    href={website_url}
+    class="flex items-center"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Link class="h-4 w-4 mr-1 fill-sky-700" />
+    {website_url.hostname}
+  </a>
+  <a href={`mailto:${email}`} class="flex items-center">
+    <Mail class="h-4 w-4 mr-1 fill-sky-700" />
+    {email}
+  </a>
+  { phone && 
+  <a href={`tel:${phone}`} class="flex items-center">
+    <Phone class="h-4 w-4 mr-1 fill-sky-700" />
+    {phone}
+  </a>
+  }
+  <div class="flex items-center">
+    <Map class="h-4 w-4 mr-1 fill-sky-700" />
+    {localization}
+  </div>
+  <a href={github.url} class="flex items-center">
+    <Github class="h-4 w-4 mr-1 fill-sky-700" />
+    {github.name}
+  </a>
+  <a href={linkedin.url} class="flex items-center">
+    <Linkedin class="h-4 w-4 mr-1 fill-sky-700" />
+    <span>{linkedin.name}</span>
+  </a>
+</div>
+</section>
