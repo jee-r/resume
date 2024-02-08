@@ -23,7 +23,9 @@ export const ui = {
         "projects": "Projets",
         "contact": "Contact",
         "educations": "Formations",
-        "works": "Expériences Professionnelles",  
+        // "works": "Expériences Professionnelles",  
+        "works": "Parcours",  
+        
         "download": "Télécharger",
         "source_code": "Code Source",
         "languages": "Langues",

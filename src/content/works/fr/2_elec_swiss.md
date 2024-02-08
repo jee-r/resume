@@ -1,7 +1,7 @@
 ---
-compagny_name: "Électricien"
-job_title: "Freelance"
-location: "FR/CH"
+compagny_name: "Monteur Câbleur"
+job_title: ""
+location: "France/Suisse"
 period: "2010 - 2018"
 ---
 MCIB - Hecken (FR)  
