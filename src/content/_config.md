@@ -6,8 +6,8 @@ website: "https://www.artz.dev"
 localization: "Altkirch, France"
 resume_source_code_url: "https://github.com/jee-r/resume.git"
 pdfFilename:
-  fr: "Ritzinger_Jeremy_Dev_Alternance"
-  en: "Ritzinger_Jeremy_Dev_Apprenticeship"
+  fr: "Ritzinger_Jeremy_FR_resume"
+  en: "Ritzinger_Jeremy_EN_resume"
 job:
   en: "Web developer"
   fr : "Développeur Web en alternance "
