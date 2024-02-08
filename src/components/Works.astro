@@ -19,12 +19,12 @@ const works =
             <div class="text-sm font-semibold">
               <div class="item-title list-inside">
                 <span class="">{work.frontmatter.compagny_name}</span>
-                <span class=" ml-2 text-xs font-normal text-gray-700">
-                  {work.frontmatter.location}
-                </span>
               </div>
             </div>
             <div class=" text-sm text-gray-700">{work.frontmatter.period}</div>
+          </div>
+          <div class="text-xs font-normal text-gray-700">
+            {work.frontmatter.location}
           </div>
           <div class="prose prose-sm text-xs leading-tight font-light p-0 prose-ul:leading-none prose-ul:my-0 prose-p:mb-2 ">
             <work.Content />
