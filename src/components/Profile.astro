@@ -1,0 +1,12 @@
+---
+const { lang } = Astro.props;
+import { useTranslations } from "../i18n/utils";
+const t = useTranslations(lang);
+import * as profile_en from "../content/_profile_en.md";
+import * as profile_fr from "../content/_profile_fr.md"
+---
+<section class="hobbies">
+  <!-- <div class="section-title">{t("hobbies")}</div> -->
+  <div class="items-container profile-content">
+    {lang == "en" ? <profile_en.Content /> : <profile_fr.Content />}
+</div>
