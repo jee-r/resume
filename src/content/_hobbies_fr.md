@@ -1,6 +1,6 @@
 ---
 ---
 
-- Auto-hébergement de services Open-Source
+- Auto-hébergement
 - Bénévole dans une radio associative (technique et reportage)
-- Je pratique la natation et occasionnellement le skateboard
+- Sport: Natation et Skateboard
