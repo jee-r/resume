@@ -22,7 +22,7 @@ const t = useTranslations(lang);
     >EN</a
   >
   <a
-    href={`/resume_${lang}.pdf`}
+    href={`/${config.frontmatter.pdfFilename[lang]}.pdf`}
     class="resume-btn"
     >{t("download")}</a
   >
