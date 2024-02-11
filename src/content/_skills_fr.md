@@ -1,14 +1,12 @@
 ---
 ---
+- **Langages**: HTML5, CSS3, JavaScript, TypeScript, PHP, Python, Bash  
+- **Framework**: React, Next.js, Astro, React-Native, Tailwind CSS, Bootstrap  
 
-**Langages**: HTML5, CSS3, JavaScript, TypeScript, PHP, Python, Bash  
-**Frameworks**: React, Next.js, Astro, React-Native, Tailwind CSS, Bootstrap  
-**DevOps**: Git, Docker, GNU/Linux, GitHub Actions, GitLab CI, Ansible   
-**Design**: Figma, Penpot, Inkscape  
+- **DevOps** Git, Docker, GNU/Linux, GitHub Actions, GitLab CI, Ansible   
 
-**Soft Skills**: Enthousiaste, Esprit d'équipe, Capacité d'adaptation, Orientation client
+- **Design**: Figma, Penpot, Inkscape  
 
+- **Soft Skills**: Enthousiaste, Esprit d'équipe, Capacité d'adaptation, Orientation client  
 
-**Français** (Natif)  
-**Anglais** (B2)  
-**Allemand** (B1)
+- **Langues**: Français (Natif), Anglais (B2), Allemand (B1)

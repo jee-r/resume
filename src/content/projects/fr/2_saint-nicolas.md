@@ -3,7 +3,7 @@ name: "Mine Saint-Nicolas"
 url_name: "www.mine-saint-nicolas.fr"
 url_link: "https://www.mine-saint-nicolas.fr"
 ---
-Développement du site de la mine Saint-Nicolas développé avec **Next.js** et **Tailwind CSS**.
+Conception du site web de la mine Saint-Nicolas développé avec **Next.js** et **Tailwind CSS**.
 
 - Code source versionné avec **Git** 
 - Déploiement en continu (**CI**/**CD**), regénération incrémentielle (**ISR**)
