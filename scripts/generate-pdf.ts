@@ -10,7 +10,7 @@ async function generatePDF(url: string, outputPath: string) {
   const page = await browser.newPage();
 
   try {
-    await page.goto(url, { waitUntil: "domcontentloaded" });
+    await page.goto(url, { waitUntil: "networkidle" });
   
     // Add CSS rules to hide button
     await page.addStyleTag({
