@@ -73,6 +73,10 @@ section {
 
 }
 
+.compact-list {
+    @apply prose-ul:pl-2 prose-ul:m-0.5 prose-li:p-0 prose-li:m-0 prose-p:my-0.5 prose prose-sm text-sm tracking-tight;
+}
+
 .resume-btn {
     @apply p-6 lg:px-4 lg:py-2 h-full w-max border border-white bg-blue-500 hover:bg-blue-400;
 }
