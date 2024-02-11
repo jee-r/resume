@@ -1,3 +1,64 @@
+## [0.3.0](https://github.com/jee-r/resume/compare/v0.2.7...v0.3.0) (2024-02-11)
+
+
+### Features
+
+* add hobbies ([397b13a](https://github.com/jee-r/resume/commit/397b13a26e1a51482b19e244b0c138d216ea8f6c))
+* add phone svg ([7cfc219](https://github.com/jee-r/resume/commit/7cfc219ea4e54948c8bca4bb032ab3f08d3c55ff))
+* add timeline effect on projects section ([ac375ff](https://github.com/jee-r/resume/commit/ac375ffb936480ca551a4ead738e63efc1a1d931))
+* Layout v2 ([9152c83](https://github.com/jee-r/resume/commit/9152c8307cd56f535698e02e6a2e6575217bdea7))
+* Layout V2 ([ce91b0a](https://github.com/jee-r/resume/commit/ce91b0acdbe956e4a8f7e10b46fc5888a580c253))
+* Layout V2 ([421fb31](https://github.com/jee-r/resume/commit/421fb31be17edcde14f6f73c787431215183f958))
+* New svg component ([b717176](https://github.com/jee-r/resume/commit/b717176094b97cede38c310a8940c481e9f14b78))
+* profile with picture ([6c19aa3](https://github.com/jee-r/resume/commit/6c19aa34c56417c9c808f7a7a80561128e9ddb35))
+
+
+### Bug Fixes
+
+* dynamic href download button ([b650eb4](https://github.com/jee-r/resume/commit/b650eb4e2b14ed6d0a891a68339eb1a094708cf1))
+* dynamic pdf filename ([b27b1ba](https://github.com/jee-r/resume/commit/b27b1ba84a646677195f470d07e600b2ce17828d))
+* typo language in fr ([12bdd61](https://github.com/jee-r/resume/commit/12bdd61146bf00193f560f7a7c4844854babd798))
+* use astro image ([9b6eac6](https://github.com/jee-r/resume/commit/9b6eac63526f89ad80cc68dad1a014008d7597df))
+
+
+### Styles
+
+* better zoning ([4480c20](https://github.com/jee-r/resume/commit/4480c20c63b5e23cabf8dd5f481b1e42354026d7))
+* Compact list on left side ([9009ca2](https://github.com/jee-r/resume/commit/9009ca2c7d062008aac95ced22de6b7226acc114))
+* fix buttons overlapping ([6449bd9](https://github.com/jee-r/resume/commit/6449bd98d4c0bf641767829023023a306ca04b9d))
+* increase margin bottom  on header ([1f5b000](https://github.com/jee-r/resume/commit/1f5b00058633b21ce16d1e9c2a89f0c235f0b42f))
+* remove drop shadow on picture ([8f46b70](https://github.com/jee-r/resume/commit/8f46b701f1261c185d5591e4cb2688ee6e03105b))
+* wrapped sections ([35678ce](https://github.com/jee-r/resume/commit/35678ce2a444c4ee18df752b413219caf66ade07))
+
+
+### Chores
+
+* add mdx astro integration ([bda3b54](https://github.com/jee-r/resume/commit/bda3b5411ae472ed74ec413a101f8d03c312afbd))
+* update astro ([49de4a8](https://github.com/jee-r/resume/commit/49de4a8f7e1b31952731134aade67e4d65284356))
+
+
+### Code Refactoring
+
+* split  component ([e1692c3](https://github.com/jee-r/resume/commit/e1692c3b5efe7e01902e24575b9bdaabf8f8806d))
+
+
+### Continuous Integration
+
+* generate pdfs with custom name ([16bd5ac](https://github.com/jee-r/resume/commit/16bd5ac73b44c0faea473e24f8e154fd92f0d445))
+* update pdfs filename ([8c91758](https://github.com/jee-r/resume/commit/8c91758ddcd76729147662fc8ef3019b8a9ca006))
+* wait full load before genrate pdf ([6ee3567](https://github.com/jee-r/resume/commit/6ee35674135af5f15ee8584b6501856ad861dab5))
+
+
+### Content
+
+*  elec job ([ab41599](https://github.com/jee-r/resume/commit/ab41599f980a3e40df7b13ef2cc712dacdcc09a6))
+* adapt to internship ([252b562](https://github.com/jee-r/resume/commit/252b562d5e59a2aa4ee1710077332a8b97623e29))
+* break line ([4f8260a](https://github.com/jee-r/resume/commit/4f8260a46f416cd0acb2ffb67829a7f4ff495ad4))
+* **en:** add format skills content ([d385f2a](https://github.com/jee-r/resume/commit/d385f2a7cc4dea0fb4b4f2a0af30eacd8eae4e65))
+* **en:** add hobbies content ([59a3aa2](https://github.com/jee-r/resume/commit/59a3aa216f34ca04c9995ddd2ee8cd431c04a0d7))
+* **fr:** update content ([34c1f52](https://github.com/jee-r/resume/commit/34c1f52fecbeeb96f8b735e2fa9eba61519101b8))
+* update ([58b1c60](https://github.com/jee-r/resume/commit/58b1c60f18bac8af1dbd4cc18e668b8608f1e89b))
+
 ## [0.2.7](https://github.com/jee-r/resume/compare/v0.2.6...v0.2.7) (2024-01-05)
 
 
