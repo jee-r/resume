@@ -1,3 +1,21 @@
+## [0.3.1](https://github.com/jee-r/resume/compare/v0.3.0...v0.3.1) (2024-02-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency astro to v4.3.5 ([647cd9a](https://github.com/jee-r/resume/commit/647cd9ac142634468cfe9cde16ef10de8fac3144))
+* **deps:** update dependency tailwindcss to v3.4.1 ([885532a](https://github.com/jee-r/resume/commit/885532a62ad86e087dad0988ef56877bc75a2b73))
+
+
+### Chores
+
+* **deps:** update dependency playwright to v1.41.2 ([f941ccd](https://github.com/jee-r/resume/commit/f941ccd75dc934e005645e82bdbb3629c68b6c19))
+
+
+### Content
+
+* fix Case OpenClassrooms ([9ebe0e0](https://github.com/jee-r/resume/commit/9ebe0e09c2db4e6108445ad7081b14d723afe839))
+
 ## [0.3.0](https://github.com/jee-r/resume/compare/v0.2.7...v0.3.0) (2024-02-11)
 
 
