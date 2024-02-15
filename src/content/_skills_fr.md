@@ -1,7 +1,7 @@
 ---
 ---
 - **Langages**: HTML5, CSS3, JavaScript, TypeScript, PHP, Python, Bash  
-- **Framework**: React, Next.js, Astro, React-Native, Tailwind CSS, Bootstrap  
+- **Framework**: React, Next.js, Astro, React-Native, Symfony, Tailwind CSS, Bootstrap  
 
 - **DevOps** Git, Docker, GNU/Linux, GitHub Actions, GitLab CI, Ansible   
 
