@@ -134,3 +134,24 @@ section {
 .timeline .timeline-item:first-child:after {
     top: 0.25rem;
 }
+
+@media print {
+    @page {
+        margin:  1.2rem;
+      }
+    html,body{
+        margin-left: none;
+        margin-right: none;
+        background-color: transparent;
+        /* Force font size because we need to fit A4 format */
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    #pdf-btn { 
+        display: none !important; 
+    }
+
+    
+
+}
