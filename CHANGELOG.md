@@ -1,3 +1,23 @@
+## [0.3.2](https://github.com/jee-r/resume/compare/v0.3.1...v0.3.2) (2024-02-26)
+
+
+### Features
+
+* replace download a element with print function ([e45e867](https://github.com/jee-r/resume/commit/e45e86783a3c16d2d8b18fad400370f33eef3f2c))
+* set print media Queries ([b2a7e76](https://github.com/jee-r/resume/commit/b2a7e76fd341c1b91d211d0da4d6fe6f9f02aaac))
+
+
+### Bug Fixes
+
+* **deps:** update dependency astro to v4.4.2 ([c7ac581](https://github.com/jee-r/resume/commit/c7ac5815a05d521422d5fdfc159be46ac8922f86))
+* full sized image is used to avoid pixelaton ([5a7e4a2](https://github.com/jee-r/resume/commit/5a7e4a27dba2f24d78f65c7fe6a539a2f287bde3))
+* replace Image by Picture and optimized pp ([963e10b](https://github.com/jee-r/resume/commit/963e10b46d0653357b8bf4367606ff196f96975f))
+
+
+### Continuous Integration
+
+* **renovatebot:** automerge minor and patch commits ([043a1e3](https://github.com/jee-r/resume/commit/043a1e331fc9478009470ecdcb31b855c104a5e7))
+
 ## [0.3.1](https://github.com/jee-r/resume/compare/v0.3.0...v0.3.1) (2024-02-12)
 
 
