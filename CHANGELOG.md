@@ -1,3 +1,26 @@
+## [0.3.3](https://github.com/jee-r/resume/compare/v0.3.1...v0.3.3) (2024-02-26)
+
+
+### Features
+
+* add version number in button ([cc906b9](https://github.com/jee-r/resume/commit/cc906b920f070fe2cca21b3c42a0ac7b241292e3))
+* replace download a element with print function ([6e5d9ca](https://github.com/jee-r/resume/commit/6e5d9ca56e6dca938fd51bbcbf091b654669e113))
+* set print media Queries ([e01ac37](https://github.com/jee-r/resume/commit/e01ac379fd6ce197e692a7c03fd290214d9d8c6c))
+
+
+### Bug Fixes
+
+* **deps:** update dependency astro to v4.4.2 ([c7ac581](https://github.com/jee-r/resume/commit/c7ac5815a05d521422d5fdfc159be46ac8922f86))
+* **deps:** update dependency astro to v4.4.3 ([6e520cd](https://github.com/jee-r/resume/commit/6e520cda16a7b28977792d3375b7c21f0333e477))
+* **deps:** update dependency astro to v4.4.4 ([c740dd0](https://github.com/jee-r/resume/commit/c740dd01e8ff22f64ba647f423d440bc9ba13877))
+* full sized image is used to avoid pixelaton ([5a7e4a2](https://github.com/jee-r/resume/commit/5a7e4a27dba2f24d78f65c7fe6a539a2f287bde3))
+* replace Image by Picture and optimized pp ([5525a73](https://github.com/jee-r/resume/commit/5525a735e69329b15673813fbd363f099d1d1cc6))
+
+
+### Continuous Integration
+
+* **renovatebot:** automerge minor and patch commits ([043a1e3](https://github.com/jee-r/resume/commit/043a1e331fc9478009470ecdcb31b855c104a5e7))
+
 ## [0.3.2](https://github.com/jee-r/resume/compare/v0.3.1...v0.3.2) (2024-02-26)
 
 
