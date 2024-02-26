@@ -3,6 +3,7 @@ const { lang } = Astro.props;
 
 import * as config from "../content/_config.md";
 
+import { version } from '../../package.json';
 import { useTranslations } from "../i18n/utils";
 const t = useTranslations(lang);
 ---
@@ -25,7 +26,9 @@ const t = useTranslations(lang);
   <a
     href={config.frontmatter.resume_source_code_url}
     class="resume-btn"
-    target="_blank">{t("source_code")}</a
+    target="_blank"><span>{t("source_code")}</span>
+    <span class="text-xs font-mono font-extralight">{version}</span>
+    </a
   >
 </div>
 <script>
