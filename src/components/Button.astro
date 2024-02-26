@@ -7,29 +7,29 @@ import { useTranslations } from "../i18n/utils";
 const t = useTranslations(lang);
 ---
 
-<div id="pdf-btn" class=" flex items-center justify-center 
+<div
+  id="pdf-btn"
+  class="flex items-center justify-center
     m-4 lg:top-4 lg:right-4
     text-lg font-semibold text-white gap-3 lg:gap-1"
 >
-  <a
-    href="/fr"
-    class="resume-btn"
-    >FR</a
+  <a href="/fr" class="resume-btn">FR</a>
+  <a href="/en" class="resume-btn">EN</a>
+  <div
+    id="print-pdf"
+    onclick="printDocument()"
+    class="resume-btn cursor-pointer"
   >
-  <a
-    href="/en"
-    class="resume-btn"
-    >EN</a
-  >
-  <a
-    href={`/${config.frontmatter.pdfFilename[lang]}.pdf`}
-    class="resume-btn"
-    >{t("download")}</a
-  >
+    {t("download")}
+  </div>
   <a
     href={config.frontmatter.resume_source_code_url}
     class="resume-btn"
-    target="_blank"
-    >{t("source_code")}</a
+    target="_blank">{t("source_code")}</a
   >
 </div>
+<script>
+  document.getElementById("print-pdf")!.addEventListener("click", function () {
+    window.print();
+  });
+</script>
