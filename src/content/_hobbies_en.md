@@ -1,6 +1,5 @@
 ---
 ---
-
 - Hosting services on my own infrastructure
-- Volunteer at a community radio station (technical work and reporting)
+- Volunteer at a community radio station
 - Sports: Swimming and skateboarding
