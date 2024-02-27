@@ -37,40 +37,30 @@ section {
     @apply text-xs;
 }
 
+
+.profile-content, 
+.work-content,
 .item-content {
     @apply 
-    text-xs 
     p-0 py-0.5 
     prose prose-sm 
-    prose-ul:leading-none 
-    prose-ul:my-1 
-    prose-li:my-1 
+    prose-ul:leading-4 
+    prose-li:leading-3 
+    prose-ul:my-0.5 
+    prose-li:my-0.5 
     prose-p:my-0.5
-    prose-p:leading-tight;
+    prose-p:leading-4;
 
 }
-.profile-content {
-    @apply  
-    p-0 py-0.5 
-    prose prose-sm 
-    prose-ul:leading-none 
-    prose-ul:my-1 
-    prose-li:my-1 
-    prose-p:my-0.5
-    prose-p:leading-tight;
+
+.item-content {
+    @apply
+    text-xs; 
 
 }
 .work-content {
     @apply 
     text-sm 
-    p-0 py-0.5 
-    prose prose-sm 
-    prose-ul:leading-none 
-    prose-ul:my-1 
-    prose-li:my-2
-    prose-p:my-0.5
-    prose-p:leading-tight;
-
 }
 
 .compact-list {
@@ -137,15 +127,25 @@ section {
 
 @media print {
     @page {
-        margin:  1.2rem;
-      }
-    html,body{
-        margin-left: none;
-        margin-right: none;
+        size: A4 portrait;
+        margin-top: 2mm;
+        margin-bottom: 2mm;
+        margin-left:  4mm;
+        margin-right:  4mm;
+        padding: 0;
         background-color: transparent;
+    }
+    html,body{
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        height: 100%;
+        width: 100%;
         /* Force font size because we need to fit A4 format */
-        font-size: 16px;
-        line-height: 24px
+        font-size: auto;
+        /* line-height: 18px */
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact; /* Chrome, Safari, Edge */
     }
 
     #pdf-btn { 

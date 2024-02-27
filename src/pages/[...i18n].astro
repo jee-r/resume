@@ -4,7 +4,7 @@ import Header from "../components/Header.astro";
 import StructureCV from "../components/StructureCV.astro";
 import Button from "../components/Button.astro";
 
-import { frontmatter } from "../content/_config.md"
+import { frontmatter } from "../content/_config.md";
 
 import { defaultLang } from "../i18n/ui";
 
@@ -28,19 +28,24 @@ const lang = i18n != undefined ? i18n : defaultLang;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title> {frontmatter.name} {frontmatter.firstname} | Resume</title>
+    <title>{frontmatter.name} {frontmatter.firstname} | Resume</title>
     <!-- Plausible script -->
-    { import.meta.env.plausible_enable &&
-    <script
-      src={frontmatter.plausible.src}
-      data-api={frontmatter.plausible.data_api}
-      data-domain={frontmatter.plausible.data_domain}
-    ></script>
+    {
+      import.meta.env.plausible_enable && (
+        <script
+          src={frontmatter.plausible.src}
+          data-api={frontmatter.plausible.data_api}
+          data-domain={frontmatter.plausible.data_domain}
+        />
+      )
     }
   </head>
   <body>
     <Button {lang} />
-    <div id="resume" class="w-full h-full flex flex-col items-stretch bg-white px-4 py-2">
+    <div
+      id="resume"
+      class="w-full h-full flex flex-col items-stretch bg-white px-4 py-2 print:p-0"
+    >
       <Header {lang} />
       <StructureCV {lang} />
     </div>
