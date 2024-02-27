@@ -1,3 +1,32 @@
+## [0.3.4](https://github.com/jee-r/resume/compare/v0.3.3...v0.3.4) (2024-02-27)
+
+
+### Features
+
+* grayscale effect on pp ([5e0facb](https://github.com/jee-r/resume/commit/5e0facb07998ac948599bdf30041aafed7ec269d))
+
+
+### Bug Fixes
+
+* **deps:** update dependency astro to v4.4.5 ([fb9042e](https://github.com/jee-r/resume/commit/fb9042e77d33d5f06505d31a9669f195c0adb131))
+* marging for print media queries ([d888130](https://github.com/jee-r/resume/commit/d888130fc48936adb2bbaaf49e9f4b5bf918827d))
+* target _blank to download button ([911efa4](https://github.com/jee-r/resume/commit/911efa40e0226ee460061d69b4ed9dd17f9892d2))
+
+
+### Reverts
+
+* "feat: replace download a element with print function" ([1f470a4](https://github.com/jee-r/resume/commit/1f470a403f25fafda5ea721abb4a82c9f4b49173))
+
+
+### Styles
+
+* Poppins Font ([2370f3e](https://github.com/jee-r/resume/commit/2370f3eda1084d528359b7a8483d0e1539121109))
+
+
+### Content
+
+* update hobbies and skills ([9dc240f](https://github.com/jee-r/resume/commit/9dc240f77636c11eb1138975ebbd2ae729b03fef))
+
 ## [0.3.3](https://github.com/jee-r/resume/compare/v0.3.1...v0.3.3) (2024-02-26)
 
 
