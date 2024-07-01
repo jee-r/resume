@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "type": "module",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "scripts": {
     "dev": "astro dev --host",
     "start": "astro dev",
@@ -11,9 +11,9 @@
     "astro": "astro",
     "generate-pdf": "ts-node-esm --project tsconfig-pdf.json ./scripts/generate-pdf.ts",
     "generate-pdf:ci": "start-server-and-test build_and_preview http://localhost:4321 generate-pdf",
-    "changelog-latest": "conventional-changelog --config ./changelog-config.cjs -r 1",
-    "changelog": "conventional-changelog --config ./changelog-config.cjs -i CHANGELOG.md -s",
-    "version": "conventional-changelog --config ./changelog-config.cjs -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "changelog-latest": "conventional-changelog --config ./changelog-config.mjs -r 1",
+    "changelog": "conventional-changelog --config ./changelog-config.mjs -i CHANGELOG.md -s",
+    "version": "conventional-changelog --config ./changelog-config.mjs -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "dependencies": {
     "@astrojs/mdx": "^3.0.0",
